@@ -1,0 +1,20 @@
+.page-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  height: 95%;
+  border: 1px grey solid;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 25px;
+}

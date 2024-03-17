@@ -1,0 +1,24 @@
+.subheader-container {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  padding-left: 10px;
+  gap: 15px;
+}
+
+.subheader-item {
+  width: fit-content;
+  height: fit-content;
+  border: solid transparent 1px;
+  background-color: rgb(65, 65, 65);
+  padding: 5px 12px;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.subheader-item:hover {
+  background-color: rgb(102, 102, 102);
+  cursor: pointer;
+}

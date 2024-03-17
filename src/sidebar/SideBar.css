@@ -1,0 +1,13 @@
+.sidebar-container {
+  display: flex;
+  height: 100%;
+  width: 4%;
+  background-color: rgb(50, 50, 50);
+}
+
+.sidebar-container-extended {
+  display: flex;
+  height: 100%;
+  width: 15%;
+  background-color: rgb(50, 50, 50);
+}

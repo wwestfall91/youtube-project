@@ -7,7 +7,7 @@
 .body-container {
   display: flex;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
   height: 95%;
   border: 1px grey solid;
 }

@@ -12,3 +12,15 @@
   border-radius: 15px;
   height: 12rem;
 }
+
+@media (max-width: 1600px) {
+  .video-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1080px) {
+  .video-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

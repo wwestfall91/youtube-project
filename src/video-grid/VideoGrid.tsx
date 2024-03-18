@@ -19,6 +19,18 @@ function VideoGrid() {
       <div className="video-grid-item">
         <Thumbnail></Thumbnail>
       </div>
+      <div className="video-grid-item">
+        <Thumbnail></Thumbnail>
+      </div>
+      <div className="video-grid-item">
+        <Thumbnail></Thumbnail>
+      </div>
+      <div className="video-grid-item">
+        <Thumbnail></Thumbnail>
+      </div>
+      <div className="video-grid-item">
+        <Thumbnail></Thumbnail>
+      </div>
     </div>
   );
 }

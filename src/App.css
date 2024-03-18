@@ -9,7 +9,7 @@
   flex-direction: row;
   gap: 1.5rem;
   height: 95%;
-  border: 1px grey solid;
+  overflow: scroll;
 }
 
 .main-body {

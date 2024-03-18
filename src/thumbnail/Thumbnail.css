@@ -1,4 +1,6 @@
 .thumbnail-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .thumbnail-image {
@@ -7,4 +9,25 @@
   border-radius: 15px;
   cursor: pointer;
   object-fit: cover;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 5px;
+}
+
+.video-details {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.video-title {
+  font-weight: 650;
+}
+
+.video-subtitle {
+  color: grey;
 }
